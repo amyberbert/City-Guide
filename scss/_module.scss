@@ -1,0 +1,65 @@
+nav[role="navigation"] ul {
+    background-color: $background-color;
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0 8px 4px 8px;
+}
+
+nav[role="navigation"] ul li {
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0;
+}
+
+nav[role="navigation"] a {
+    color: #fff;
+    font-size: 18px;
+    transition: color 300ms linear;
+    &:hover {
+        color: darken(#fff,30%);
+        transition: color 300ms linear;
+    }
+}
+
+header[role="banner"] svg {
+    fill: $color;
+}
+
+
+nav[role="navigation"] {
+    max-width: 600px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+header[role="banner"] {
+    margin: 100px 0 140px 0;
+}/* Module.scss */
+
+.street-address:before {
+    content: "a. ";
+    @include headline-font;
+    padding: 20px 15px 0px 15px;
+}
+
+.tel {
+    display: block;
+    &:before {
+        content: "p. ";
+        @include headline-font;
+        padding: 120px 15px 50px 15px;
+    }
+}
+
+.Market-location, {
+    margin-bottom: em(100px);
+     &:last-of-type {
+        margin-bottom: 0;
+     }
+}
+
+abbr[title] {
+    border-bottom: none;
+}
