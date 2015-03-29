@@ -49,15 +49,15 @@ h1 {
     @include headline-font;
     line-height: 1.2;
     color: $color2;
-    padding: 100px 15px 80px 15px;
-    font-size: em(60px);
+    padding: 80px 15px 20px 15px;
+    font-size: em(80px);
     text-align: center;
    }
 
 
 h2 {
     font-size:em(38px);
-    margin: em(00px) 0 em(4px) 0;
+    margin: em(0px) 0 em(4px) 0;
     padding: 0px 15px 0px 15px;
 }
 
