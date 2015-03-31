@@ -2,7 +2,7 @@
 
 body {
     background-color: $background-color;
-    color: $color;
+    color: $background-color;
     @include body-font;
     font-size: $base-font-size;
     line-height: $line-height;
@@ -14,8 +14,8 @@ body {
 }
 
 .boxed {
-    background-color: #262626;
-    opacity: 0.85;
+    background-color: #fff;
+    opacity: 0.75;
 }
 
 svg {
@@ -35,18 +35,16 @@ header {
 }
 
 h2, h3 {
-    background-color: $background-color;
     @include headline-font;
     line-height: 1;
-    color: $color2;
+    color: $background-color;
     margin: 0;
 }
 
 h1 {
-    background-color: $background-color;
     @include headline-font;
     line-height: 1.2;
-    color: $color2;
+    color: $background-color;
     padding: 80px 15px 20px 15px;
     font-size: em(80px);
     text-align: center;
@@ -74,7 +72,7 @@ b, strong {
 }
 
 a {
-    color: $color2;
+    color: $background-color;
     @include body-font-bold;
     line-height: 0;
     padding: 0 4px 2px 4px;
@@ -83,7 +81,7 @@ a {
 }
 
 a:hover { 
-    color: lighten(#fff,50%);
+    color: lighten(#6c6c6c,20%);
     transition: color 300ms linear;
 }
 

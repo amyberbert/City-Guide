@@ -1,5 +1,5 @@
 nav[role="navigation"] ul {
-    background-color: $background-color;
+    background-color: #262626;
     list-style-type: none;
     margin: 0 20px 0 0;
     padding: 0 8px 4px 8px;
@@ -15,23 +15,16 @@ nav[role="navigation"] a {
     color: #fff;
     font-size: 18px;
     transition: color 300ms linear;
-    &:hover {
-        color: darken(#fff,30%);
-        transition: color 300ms linear;
+    &:hover { 
+    color: lighten(#6c6c6c,20%);
+    transition: color 300ms linear;
     }
 }
 
 header[role="banner"] svg {
-    fill: $color;
-}
-
-
-nav[role="navigation"] {
+    fill: #262626;
     max-width: 600px;
-    position: fixed;
-    text-align: center;
-    top: 0;
-    width: 100%;
+    opacity: .5;
 }
 
 header[role="banner"] {
