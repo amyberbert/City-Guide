@@ -1,8 +1,6 @@
 /* Base.scss */
 
 body {
-    background-image: url(http://cdn.superbwallpapers.com/wallpapers/world/baltimore-harbor-at-night-25768-1680x1050.jpg);
-    background-attachment: fixed;
     background-color: $background-color;
     color: $color;
     @include body-font;
