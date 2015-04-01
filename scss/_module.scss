@@ -23,7 +23,7 @@ nav[role="navigation"] a {
 
 header[role="banner"] svg {
     fill: #262626;
-    max-width: 600px;
+    max-width: 1024px;
     opacity: .5;
 }
 
@@ -37,20 +37,10 @@ header[role="banner"] {
     padding: 20px 15px 0px 15px;
 }
 
-.tel {
-    display: block;
-    &:before {
+.tel:before {
         content: "p. ";
         @include headline-font;
-        padding: 120px 15px 50px 15px;
-    }
-}
-
-.Market-location, {
-    margin-bottom: em(100px);
-     &:last-of-type {
-        margin-bottom: 0;
-     }
+        padding: 20px 15px 0px 15px;
 }
 
 abbr[title] {

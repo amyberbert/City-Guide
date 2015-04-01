@@ -8,7 +8,7 @@ body {
     line-height: $line-height;
     margin: 0 auto;
     //margin: top/bottom left/right:
-    max-width: 600px;
+    max-width: 1024px;
     width: 100%;
     
 }
@@ -19,7 +19,7 @@ body {
 }
 
 svg {
-    padding: 20px 15px 0 15px;
+    padding: 0 0px 15px 0 15px;
     align-content: center;
 }
 
@@ -30,7 +30,7 @@ p {
 
 header {
     margin: 0;
-    width: 600px;
+    width: 1024px;
     padding-top: 0;
 }
 
@@ -38,22 +38,21 @@ h2, h3 {
     @include headline-font;
     line-height: 1;
     color: $background-color;
-    margin: 0;
 }
-
+    
 h1 {
     @include headline-font;
-    line-height: 1.2;
+    line-height: .25;
     color: $background-color;
-    padding: 80px 15px 20px 15px;
-    font-size: em(80px);
+    padding: 30px 15px 0px 15px;
+    font-size: em(75px);
     text-align: center;
    }
 
 
 h2 {
     font-size:em(38px);
-    margin: em(0px) 0 em(4px) 0;
+    margin: 0;
     padding: 0px 15px 0px 15px;
 }
 
@@ -87,6 +86,21 @@ a:hover {
 
 img {
 	height: auto;
-	max-width: 100%;
+	max-width: 50%;
     text-align: center;
+    margin: 0;
+    padding-left: 30px;
 }
+
+.street-address {
+    margin: 0 0 0 -60px;
+}
+
+.tel {
+    margin: 0 0 0 -60px;
+}
+
+svg {
+    padding-left: 15px;
+}
+
