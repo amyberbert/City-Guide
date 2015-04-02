@@ -38,6 +38,7 @@ h2, h3 {
     @include headline-font;
     line-height: 1;
     color: $background-color;
+    margin-bottom: 20px;
 }
     
 h1 {
@@ -52,8 +53,11 @@ h1 {
 
 h2 {
     font-size:em(38px);
-    margin: 0;
-    padding: 0px 15px 0px 15px;
+    margin: 0 0 15px 0;
+    padding: 0px 15px 15px 15px;
+    box-sizing: border-box;
+    float: left;
+    width: 60%;
 }
 
 h3 {
@@ -85,22 +89,31 @@ a:hover {
 }
 
 img {
-	height: auto;
+	max-height: 30%;
 	max-width: 50%;
-    text-align: center;
     margin: 0;
     padding-left: 30px;
+    float: right;
 }
 
-.street-address {
-    margin: 0 0 0 -60px;
+.street-address:before {
+    content: "a. ";
+    @include headline-font;
+    padding: 20px 15px 0px 15px;
 }
 
-.tel {
-    margin: 0 0 0 -60px;
+.tel:before {
+        content: "p.";
+        @include headline-font;
+        padding: 20px 15px 0px 15px;
+        margin: 0 0 0 -60px;
+}
+
+abbr[title] {
+    border-bottom: none;
 }
 
 svg {
-    padding-left: 15px;
+    padding: 0 0 20px 20px;
 }
 
