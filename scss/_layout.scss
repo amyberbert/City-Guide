@@ -6,6 +6,14 @@ nav[role="navigation"] {
     width: 100%;
 }
 
+h2 {
+        box-sizing: border-box;
+        float: left;
+        padding-right: 40px;
+        margin-bottom: 40px;
+        width: 60%;
+}
+
 .Lex Burger Fixed {
         box-sizing: border-box;
         float: left;
@@ -33,4 +41,14 @@ italy boot {
         float: left;
         padding-right: 40px;
         width: 40%;
+}
+
+
+img {
+    float: right;
+    padding: 0 40px 0px 30px;
+    height: 40%;
+    width: 40%;
+    text-align: center;
+    margin: 0;
 }

@@ -31,4 +31,24 @@ header[role="banner"] {
     margin: 100px 0 140px 0;
 }/* Module.scss */
 
+.street-address:before {
+    content: "a. ";
+    @include headline-font;
+    padding: 20px 15px 0px 15px;
+}
 
+.tel:before {
+        content: "p. ";
+        @include headline-font;
+        padding: 20px 15px 0px 15px;
+}
+
+.email:before {
+        content: "e. ";
+        @include headline-font;
+        padding: 20px 15px 0px 15px;
+}
+
+abbr[title] {
+    border-bottom: none;
+}

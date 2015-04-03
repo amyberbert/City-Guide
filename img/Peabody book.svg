@@ -2,14 +2,16 @@
 <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+	 width="39.9px" height="45.044px" viewBox="0 54.956 39.9 45.044" enable-background="new 0 54.956 39.9 45.044"
+	 xml:space="preserve">
 <g id="Layer_1_1_">
 </g>
 <g id="Layer_2">
-	<path stroke="#FFFFFF" stroke-miterlimit="10" d="M0.924,57.712c0,0-0.227,34.609,0.038,38.744s7.239,3.062,7.239,3.062h31.699
-		V61.693H7.895c-3.065-0.539-4.865-1.278-5.858-2.072c-2.68-2.139,0.499-4.665,0.499-4.665h35.221v6.737"/>
-	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="8.201" y1="61.693" x2="8.201" y2="99.519"/>
-	<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M35.882,60.611l-3.943-3.513L2.132,57.421
+	<path stroke="#FFFFFF" stroke-miterlimit="10" d="M0.924,57.712c0,0-0.227,34.608,0.038,38.744
+		c0.265,4.135,7.239,3.062,7.239,3.062H39.9V61.693H7.895c-3.065-0.539-4.865-1.278-5.858-2.072
+		c-2.68-2.139,0.499-4.665,0.499-4.665h35.221v6.737"/>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="8.201" y1="61.693" x2="8.201" y2="99.52"/>
+	<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M35.882,60.611l-3.943-3.514L2.132,57.421
 		c0,0-1.345,1.831,3.556,3.362L35.882,60.611z"/>
 </g>
 </svg>
